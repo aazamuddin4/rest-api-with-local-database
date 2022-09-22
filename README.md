@@ -7,7 +7,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/aazamuddin4/rest-api-with-local-database">
-    <img src="rest_api-removebg-preview.png" alt="Logo" width="400" height="200">
+    <img src="rest_api-removebg-preview.png" alt="Logo" width="1500" height="500">
   </a>
 
   <h3 align="center">REST API using Spring Boot</h3>
@@ -45,11 +45,10 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#purpose">Purpose</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -77,6 +76,11 @@
 
 To get a local copy up and running follow these simple steps.
 
+### Prerequisites
+
+* an IDE or a text editor
+* JDK 1.8+
+* Maven 3+
 
 ### Installation
 
@@ -87,30 +91,36 @@ To get a local copy up and running follow these simple steps.
 2. Install Eclipse IDE for Eclipse Committers
 3. Initializing a Spring Boot Project
    ```sh
-   Go to start.spring.io. and add below dependencies
+   Go to start.spring.io and add below dependencies
    ```
    * [x] Spring Data JPA
    * [x] Spring Web
    * [x] Spring Boot DevTools
-   * [x] MySQL Driver 
-4. Install MySQL Installer 
-   ```sh
+   * [x] MySQL Driver
+  
+   Once installed, open the maven project in Eclipse IDE
+4. Install MySQL Installer with added product of
    * [x] MySQL Server
    * [x] MySQL Workbench
+   * [x] Connector/ODBC
+5. Install MySQL Workbench GUI
+   ```sh
+   Create connection between the server created in the MySQL Installer
    ```
-5. Install MySQL Workbench GUI and create connection between the server created using 
-
-
+6. Install Postman
+   ```sh
+   Test the URL created in the APIcontroller.java (GET or POST)
+   ```
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Purpose
 
-The aim of this project is to retrieve data from SQL Server using Microsoft Visual Studio using ASP.NET Core Web Application
+Application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services. REST stands for representational state transfer
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/aazamuddin4/ASP.NET-5.0-Retrieving-Data/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/aazamuddin4/rest-api-with-local-database/issues) for a list of proposed features (and known issues).
 
 
 
